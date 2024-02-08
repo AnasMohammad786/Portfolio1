@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+html{
+    font-size: 62.5%;
+}
+
+body
+{
+    background:#081b29;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: small;
+
+
+}
+.logo{
+    font-weight:700; 
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+   
+    margin-top: -20px;
+}
+.head
+{
+    color:white;
+    font-size: 35px;
+    font-weight: 150px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-style: oblique;
+}
+.head:hover
+{
+    color:aqua;
+}
+.navbar{
+    color:white;
+    background-color: transparent;
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    margin:10px;
+    
+   
+    
+    
+}
+.links{
+    font-size: 20px;
+    font-weight: 105px;
+    color:white;
+    justify-content: space-around;
+    background-color:transparent;
+    
+    
+    
+}
+
+ a{
+    color:white;
+    background-color: transparent;
+   font-style:arial;
+   font-weight: 105px;
+   text-decoration: none;
+   transition: .5s;
+   border-radius: 10px;
+   justify-content: space-around;
+   margin-right: 20px;
+   
+}
+a:hover{
+    color:aqua;
+    font-size: 30px;
+   
+}
+
+.sec
+{
+    background-color: transparent;
+    width:50%;
+    justify-content: center;
+    padding:50px 20px;
+    margin: 50px;
+    
+    
+}
+
+
+.role{
+    font-size:35px ;
+    color:white;
+    transition: .5s;
+    
+}
+.role:hover{
+    color: aquamarine;
+    
+}
+
+p{
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    color: antiquewhite;
+    background-color: transparent;
+    padding: 20px 30px;
+}
+.boxm
+{
+    background-color: transparent;
+    display: flex;
+}
+.image1{
+    background-color:transparent;
+    margin: 50px;
+    padding: 50px;
+    justify-content: center;
+    
+}
+.tou{
+    opacity:0.4;
+    transition: 0.5s;
+    border-radius: 50px;
+    filter: blur(2px);
+}
+.tou:hover{
+    filter: blur(0);
+    opacity: 1;
+}
+
+
+
+.name{
+    font-size: 45px;
+    transition: .5s;
+}
+.name:hover{
+    color: aqua;
+    font-size: 45px;
+}
+.iconsm{
+    background-color: transparent;
+    border-radius: 30px;
+    height: 10%;
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    padding: 20px;
+    margin:10px;
+    transition: .5s ease-in-out;
+    
+}
+.iconsm:hover{
+    background-color:aqua;
+    opacity:.8;
+}
+
+
+    .icon1{
+        opacity:0.6;
+        transition: 0.5s;
+       
+
+        
+    }
+    .icon1:hover{
+        opacity:1;
+        font-size: 20px;
+        
+        height: 5px;
+        
+    }
+    .icon2{
+        opacity:0.6;
+        transition: 0.5s;
+    }
+    .icon2:hover{
+        opacity:1;
+    }
+    .icon3{
+        opacity:0.6;
+        transition: 0.5s;
+    }
+    .icon3:hover{
+        opacity:1;
+    }
+
+.newsec2{
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    color:white;
+    font: oblique;
+    font-weight: 300px;
+    
+}

@@ -65,7 +65,7 @@ button:active{
     font-weight: 700;
     border-radius: 10px;
     outline: none;
-    padding:10px;
+    
 }
 .operater:hover{
     background-color: hsl(35, 88%, 35%);

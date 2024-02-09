@@ -54,7 +54,7 @@ body
     
 }
 .links{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 105px;
     color:white;
     justify-content: space-around;
@@ -67,8 +67,9 @@ body
  a{
     color:white;
     background-color: transparent;
-   font-style:arial;
-   font-weight: 105px;
+    font-family: 'Poppins', sans-serif;
+   font-weight:700;
+   font-size: 20px;
    text-decoration: none;
    transition: .5s;
    border-radius: 10px;

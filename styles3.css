@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400&display=swap');
+
+body{
+    background-color:hsl(0,0%, 95%);
+    height:100vh;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    font-family: 'Poppins', sans-serif;
+}
+#container{
+   
+    
+    background-color:hsl(0,0%, 5%) ;
+    
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;  
+    
+    box-shadow: 5px 10px 8px #888888;
+    
+    
+}
+#keys {
+    
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 25px;
+    gap: 10px;
+    text-align: left;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 3rem;
+    font-weight:bold;
+    background-color: transparent;
+    color: aliceblue;
+    padding: 25px;
+    transition: .4s ease-in-out;
+    
+    
+    
+    
+}
+button:hover{
+    background-color: hsl(0,0%, 25%);
+    
+}
+button:active{
+    background-color: hsl(0,0%, 60%);
+}
+#display{
+    background-color: hsl(0,0%, 15%);
+    height: 100px;
+    width:100%;
+    color: aliceblue;
+    text-align: left;
+    border: none;
+    font-size: 50px;
+    font-weight: 700;
+    border-radius: 10px;
+    outline: none;
+}
+.operater:hover{
+    background-color: hsl(35, 88%, 35%);
+    
+}
+.operater:active{
+    background-color: hsl(35,88%, 40%);
+}

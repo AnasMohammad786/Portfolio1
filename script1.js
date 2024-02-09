@@ -17,7 +17,5 @@ function calculate(){
         display.value='Error click C';
     }
 }
-function delete(){
-    display.value--;
-}
+
 
